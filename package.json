@@ -1,21 +1,14 @@
 {
-  "name": "funct",
+  "name": "cadastro-usuarios",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Sistema de cadastro de usuários com Node.js e MySQL",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
   "dependencies": {
-    "dotenv": "^18.0.5",
-    "express": "^5.2.1",
-    "mysql2": "^3.24.5"
-  },
-  "devDependencies": {
-    "nodemon": "^3.1.14"
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mysql2": "^3.9.7"
   }
 }
